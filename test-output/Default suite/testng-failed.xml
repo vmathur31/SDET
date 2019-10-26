@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="FirstTestNG.TestEngine">
+        <methods>
+          <include name="Prerunsetup"/>
+          <include name="PostExecution"/>
+          <include name="Product_Sanity" invocation-numbers="1"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- FirstTestNG.TestEngine -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
